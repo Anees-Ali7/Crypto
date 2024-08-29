@@ -1,0 +1,216 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.btn-set {
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+.Trade-bg {
+    color: #fff;
+    background-color: #1E53CF;
+    padding-inline: 25px;
+    border-radius: 50px;
+}
+
+.hero-title {
+    font-size: 55px;
+}
+
+.gle-play-img {
+    width: 40px;
+}
+
+.hero-img {
+    width: 55%;
+}
+
+.grad {
+    background-image: linear-gradient(#f9f1ff00, #e2c1fff7, #497be71f);
+}
+.ener{
+    position: relative;
+    bottom: 50%;
+    left: 65%;
+}
+.enegy2{
+    position: relative;
+    right: 44%;
+    top: 10%;
+}
+.title-trad{
+    font-size: 50px;
+}
+.bg-grad{
+    background-image: linear-gradient(#000000, #3d264ee8,  #000000);
+    height: 100%;
+}
+.card-row {
+    height: 150vh !important;
+}
+.bg-card1{
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    /*position: absolute;
+     */
+}
+.card-logo{
+    height: 10vh;
+}
+.card-img{
+    width: 80% !important;
+    height: 50%;
+   
+}
+.card-img-1 , .card-img-2, .card-img-3 {
+    position: absolute;
+
+}
+.card-img-1{
+    bottom: 100px;
+}
+.card-img-2{
+    top: 115px;
+    left: 33.5%;
+}
+.card-img-3{
+    top: 0;
+    right: 0;
+}
+.opp-btn{
+    position: absolute;
+    right: 3%;
+    bottom: -21%;
+}
+.card-top{
+    width: 50px;
+}
+.cell-phone{
+    width: 80%;
+   
+}
+.card-row{
+    position: relative;
+    height: 150vh;
+}
+.energylast{
+
+    position: absolute;
+    left: -3%;
+    top: 3%;
+}
+.join-trde {
+    background-image: linear-gradient(#ffffffab, #95d3ff7b, #DBB2FF);
+}
+body{
+    background-color:#eee;
+}
+
+.card{
+    
+    border:none;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:blue;
+}
+.crypto-h1{
+    font-size: 50px;
+}
+
+.ftr-mobile{
+    display: none;
+}
+.al-row{
+    display: none;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px)and (max-width: 1024px) {   
+   
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .hero-title{
+        font-size: 30px;
+    }
+    .ener{
+        position: relative;
+        left: 70%;
+    }
+    .title-trad{
+        font-size: 33px;
+    }
+    .bg-card1{
+        width: 100%;
+        height: 100%;
+    }
+    .trade-str{
+        text-align: center;
+
+    }
+    .card-m{
+        padding-block: 30px;
+    }
+    .crypto-h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .crypto-p{
+        text-align: center;
+    }
+    .cell-last{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .fotrmbl{
+        display: none;
+    }
+    .ftr-mobile{
+        display: block;
+    }
+    .mbl-size{
+        font-size: 12px !important;
+    }
+    .grad{
+        padding-block: 20px;
+    }
+    
+    
+    .bg-card1{
+        /* padding-block: 40px; */
+    }
+    .lst-btn{
+        display: none;
+    }
+    .trade-btn{
+        text-align: center;
+    }
+    .card-row{
+        display: none;
+    }
+    .al-row{
+        display: block !important;
+    }
+}
